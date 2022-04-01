@@ -10,7 +10,7 @@ class SignUpScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: false,
         title: const Text(
-          "Moz Inc.",
+          "King Inc",
         ),
       ),
       body: Container(
@@ -24,7 +24,7 @@ class SignUpScreen extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 50,
                     fontWeight: FontWeight.w900,
-                    color: Colors.green,
+                    color: Colors.red,
                   ),
                 ),
                 const SizedBox(
@@ -88,7 +88,7 @@ class SignUpScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100),
                     gradient: const LinearGradient(
-                        colors: [Colors.grey, Colors.lightGreenAccent]),
+                        colors: [Colors.grey, Colors.redAccent]),
                   ),
                   child: MaterialButton(
                     onPressed: () {},
@@ -103,11 +103,6 @@ class SignUpScreen extends StatelessWidget {
                 ),
                 const SizedBox(
                   height: 40,
-                ),
-                const Icon(
-                  Icons.fingerprint,
-                  size: 60,
-                  color: Colors.grey,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,

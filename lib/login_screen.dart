@@ -10,7 +10,7 @@ class LoginScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: false,
         title: const Text(
-          "Moz Inc.",
+          "King Inc",
         ),
       ),
       body: Container(
@@ -24,7 +24,7 @@ class LoginScreen extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 50,
                       fontWeight: FontWeight.w900,
-                      color: Colors.green,
+                      color: Colors.red,
                     ),
                   ),
                   const SizedBox(
@@ -71,7 +71,7 @@ class LoginScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(100),
                       gradient: const LinearGradient(
-                          colors: [Colors.green, Colors.greenAccent]),
+                          colors: [Colors.red, Colors.redAccent]),
                     ),
                     child: MaterialButton(
                       onPressed: () {},
@@ -86,19 +86,6 @@ class LoginScreen extends StatelessWidget {
                   ),
                   const SizedBox(
                     height: 30,
-                  ),
-                  const Icon(
-                    Icons.fingerprint,
-                    size: 60,
-                    color: Colors.grey,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      TextButton(
-                          onPressed: () {},
-                          child: const Text("Use fingerprint"))
-                    ],
                   ),
                   const SizedBox(
                     height: 10,
